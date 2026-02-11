@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kavindu website test</title>
+    <link rel="stylesheet" href="style1.css">
+    
+</head>
+    <script>
+        function goNext(){
+            window.location.href="index.html"
+        }
+    </script>
+
+<body>
+    
+
+    <div class="background-image"></div>
+    <div class="login-container">
+        <form class="login-form">
+            <h2>Login</h2>
+            
+            <div class="input-group">
+                <input type="text" placeholder="Username" required>
+                <i class="fa-solid fa-user"></i>
+            </div>
+            
+            <div class="input-group">
+                <input type="password" placeholder="Password" required>
+                <i class="fa-solid fa-lock"></i>
+            </div>
+            
+            <div class="form-options">
+                <label><input type="checkbox"> Remember Me</label>
+                <a href="#">Forgot Password</a>
+            </div>
+            
+            <button type="button" class="login-btn" onclick="goNext()">Login</button>
+
+            
+            <p class="register-text">Don't have an account?<a href="index3.html"> Register</a></p>
+        </form>
+    </div>
+</body>
+</html>

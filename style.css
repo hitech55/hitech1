@@ -41,10 +41,7 @@ header{
 
 /* HERO */
 .hero{
-    height:80vh;
-    background-image: url(image.jpg);
-    background-size: cover;
-    background-repeat: no-repeat ;
+   
     color:red;
     display:flex;
     flex-direction:column;
@@ -53,6 +50,21 @@ header{
     text-align:center;
     font-family: bold;
 }
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:100%;
+    background: url(hh.png) no-repeat center center/cover;
+    z-index: -1;
+}
+
+
+
+
+
 
 .hero h2  {
     font-size:15px;
@@ -77,6 +89,9 @@ header{
 }
 
 .btn{
+    display:flex;
+    gap:20px;
+   
     background:greenyellow;
     color:blue;
     padding:12px 25px;
@@ -97,6 +112,7 @@ header{
     
     padding:60px;
     text-align:center;
+    color: white;
 }
 
 .service-box{
@@ -107,7 +123,8 @@ header{
 }
 
 .card{
-    background:greenyellow;
+     background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
+     color: ;
     padding:25px;
     width:250px;
     border-radius:15px;
@@ -116,7 +133,7 @@ header{
 
 /* CONTACT */
 .contact{
-    background:#0f172a;
+    background:transparent;
    
     color:white;
     text-align:center;
@@ -139,6 +156,6 @@ header{
 footer{
     text-align:center;
     padding:15px;
-    background:#020617;
+   background: rgba(255, 255, 255, 0.1); /* Semi-transparent white */
     color:white;
 }
